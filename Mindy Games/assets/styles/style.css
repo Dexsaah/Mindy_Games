@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 5vh;
+    background-image: url(../images/backgroundnav.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px dotted white;
+}
+
+main{
+    min-height: 90vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    height: 5vh;
+    background-image: url(../images/backgroundfoot.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header>img{
+    height: 38px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+nav>a{
+    color:white;
+    margin-left: 2rem;
+    border: 2px solid rgb(212, 34, 228);
+    border-radius: 10px;
+    color:rgb(249, 253, 22);
+    text-decoration: none;
+}
+
+footer h3{
+    color: white;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.image1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image1 img{
+    height: 20rem;
+    width: 35rem;
+    border: 1.5rem solid black;
+    border-radius: 3rem;
+}
+
+.image2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.image2 img{
+    height: 30rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    border: 1.5rem solid black;
+    border-radius: 3rem;
+}
+
+.image2 p{
+    color: white;
+    font-size: 30px;
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+h1{
+    color:rgb(249, 253, 22);
+    font-size: 25px;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+}
+
+.texthome{
+    color: white;
+    font-size: 2rem;
+    height:14rem;
+    width: 30rem;
+    margin-right: 10rem;
+    margin-top: 8rem;
+}
+
+.imgab{
+    display: flex;
+    flex-direction: column;
+}
+
+.image3, .image4, .image5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.imgab img{
+    height: 15rem;
+    width: 15rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border: 1.5rem groove rgb(175, 3, 169);
+    border-radius: 3rem;
+}
+
+.imgab p{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+.image6 img{
+    height: 25rem;
+    width: 40rem;
+    border: 1.5rem solid black;
+    border-radius: 3rem;
+}
+
+.image6 p{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact p{
+    color:rgb(249, 253, 22);
+    margin: 2rem;
+}
+
+.contact a{
+    color: white;
+}
+
+.image6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stream{
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    background: rgb(65,9,121);
+    background: linear-gradient(90deg, rgba(65,9,121,0.711922268907563) 1%, rgba(114,9,121,0.700717787114846) 84%);
+    border: 2px solid red;
+    font-size:1.5rem;
+    margin-top:2rem;
+    margin-bottom: 4.5rem;
+}
+
+th, td{
+    padding: 2rem;
+    border: 2px dotted blueviolet;
+    text-align: center;
+    color:yellow;
+}
+
+.image7, .image8{
+    display: flex;
+    align-items: center;
+}
+
+.image7 img{
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem 10rem;
+    border: 1.5rem groove rgb(175, 3, 169);
+    border-radius: 3rem;
+
+}
+
+.image8 img{
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem 10rem;
+    border: 1.5rem groove rgb(175, 3, 169);
+    border-radius: 3rem;
+}
+
+ol{
+    color: white;
+    margin-right: 10rem;
+}
+
+.raffle{
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.raffle p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width:1024px){}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .image2 img{
+        margin-left: 2rem;
+    }
+    .image3, .image4, .image5{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .image7, .image8{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    header{
+        height: 20vh;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    body{
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+    }
+    .image1 img{
+        height: 15rem;
+        width: 15rem;
+    }
+    .image2{
+        flex-direction: column-reverse;
+    }
+    .image2 img{
+        margin: 0;
+        height: 15rem;
+        width: 15rem;
+    }
+    .image2 p{
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-right: 5rem;
+        margin-bottom: 1rem;
+    }
+    .imgab img{
+        height: 10rem;
+        width: 10rem;
+        margin:0;
+    }
+    .imgab{
+        align-items: center;
+    }
+    .imgab div{
+        flex-direction: column;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    .imgab p{
+        padding:0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .image6 img{
+        height: 15rem;
+        width: 15rem;
+    }
+    .image6 p{
+        font-size: 1rem;
+        padding: 1px;
+    }
+    .table td, th{
+        height: 5rem;
+        width: 5rem;
+        padding:0;
+    }
+    .image7 img{
+        height: 15rem;
+        width: 15rem;
+        margin: 0;
+    }
+    .image8 img{
+        height: 15rem;
+        width: 15rem;
+        margin: 0;
+    }
+    .image7{
+        flex-direction: column;
+    }
+    .image8{
+        flex-direction: column;
+    }
+    ol{
+        margin-left: 7rem;
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    .raffle{
+        flex-direction: column;
+    }
+    .map iframe{
+        height: 20rem;
+        width: 20rem;
+    }
+    .map p{
+        margin-top: 2rem;
+        color: white;
+        background-color: rgb(172, 56, 172);
+    }
+}
